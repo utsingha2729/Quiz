@@ -1,0 +1,9 @@
+c:\users\learning\source\repos\QuizContest\QuizContest\bin\QuizContest.dll.config
+c:\users\learning\source\repos\QuizContest\QuizContest\bin\QuizContest.dll
+c:\users\learning\source\repos\QuizContest\QuizContest\bin\QuizContest.pdb
+c:\users\learning\source\repos\QuizContest\QuizContest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\learning\source\repos\QuizContest\QuizContest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\learning\source\repos\QuizContest\QuizContest\obj\Debug\QuizContest.csprojResolveAssemblyReference.cache
+c:\users\learning\source\repos\QuizContest\QuizContest\obj\Debug\QuizContest.csproj.CoreCompileInputs.cache
+c:\users\learning\source\repos\QuizContest\QuizContest\obj\Debug\QuizContest.dll
+c:\users\learning\source\repos\QuizContest\QuizContest\obj\Debug\QuizContest.pdb

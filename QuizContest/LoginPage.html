@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#submit").click(function () {
+                $.get("abc.txt", function (data, status) {
+                    alert(status);
+
+                    var ParsedData = JSON.parse(data);
+                    if (ParsedData.UserID == document.getElementById("txtUserID").value && ParsedData.Password == document.getElementById("txtPassword").value) {
+                        alert("Hurrah");
+                        $("#MainDiv").load("Rules.html");
+                    }
+                    else {
+                        alert("please enter something");
+                    }
+
+
+                });
+
+
+            });
+            $("#secondary").click(function () {
+                alert("hi");
+            });
+        }
+    </script>
+</head>
+<body>
+    <div id="MainDiv">
+        <label>User ID:</label><input id="txtUserID" type="text" />
+        <br />
+        <label>User Password:</label><input id="txtPassword" type="text" />
+        <br />
+        <button id="submit">Login</button>
+        <button id="secondary">Hi</button>
+    </div>
+</body>
+</html>
